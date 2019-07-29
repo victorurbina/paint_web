@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Paint</title>
+</head>
+
+<body>
+<div class="bar">
+
+<div>
+    <div class="radius">
+        Pincel <label id="pincelval">10</label>   
+        <button class="btn-primary" id="decrease">-</button>
+        <button class="btn-secundary" id="increase">+</button>    
+    </div>
+    <button class="btn-success" id="guardar">Guardar</button>
+</div>
+</div>
+
+<!--El area parala paleta de colores-->
+<div class="changeColor" id="changeColor"></div>
+
+<!--El area para dibujar-->
+<canvas id="canvas" class="canvas"> </canvas>
+
+<center>
+    <p><b>Elaborado por: </b><i>MSc I.S</i> Victor E. Urbina</p>
+    <mark><b>Proyecto:</b> Paint <i>HTML</i></mark>
+</center>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/set_colors.js"></script>
+</body>
+</html>
+

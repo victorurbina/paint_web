@@ -1,0 +1,53 @@
+.bar{
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+}
+
+.changeColor{
+    background-color: #eee;
+    width: 45px;
+    height: 100%;
+    position: fixed;
+    margin-top: 20px;
+}
+
+.canvas{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    border-width: 20px;
+    border: dotted red;
+    border-radius: 10px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+
+.btn-primary{
+    background-color: orange;
+    color:white;
+    border-radius: 30px;
+}
+
+.btn-secundary{
+    background-color: blue;
+    color:white;
+    border-radius: 30px;
+}
+
+.btn-success{
+    background-color: red;
+    color:white;
+}
+
+.set_color{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.radius{
+    display: inline;
+    margin-top: 10px;
+}
